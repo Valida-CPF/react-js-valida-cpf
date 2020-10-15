@@ -1,0 +1,142 @@
+#page-table {
+    height: 100vh;
+}
+
+#page-table .content {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#page-table .content header {
+    margin: 48px 0 0;
+}
+
+#page-table .content main {
+    flex: 1;
+    width: 100%;
+    /* max-width: 560px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page-table .content footer {
+    flex: 1;
+    width: 20%;
+    height: 5%;
+    /* max-width: 560px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#page-table .content main button {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    color: #f1faee;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#page-table .content a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+#page-table .content a span {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    height: 72px;
+    width: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+#page-table .content a span svg{
+    color: #f1faee;
+    width: 20px;
+    height: 20px;
+}
+
+#page-table .content a strong{
+    flex: 1;
+    text-align: center;
+    color: #f1faee;    
+}
+
+#page-table .content MyTable{
+    
+}
+
+.MuiDialog-container {
+    text-align: center;
+}
+
+.MuiDialog-container a {
+    max-width: 100%;
+    height: 72px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.MuiDialog-container a span {
+    display: block;
+    background: rgba(0, 0, 0, 0.08);
+    height: 72px;
+    width: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.MuiDialog-container a span svg{
+    color: #f1faee;
+    width: 20px;
+    height: 20px;
+}
+
+.MuiDialog-container a strong{
+    flex: 1;
+    text-align: center;
+    color: #f1faee;    
+}
