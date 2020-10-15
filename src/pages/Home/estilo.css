@@ -1,8 +1,8 @@
 #home {
     height: 100vh;
 
-    background: url('../../assets/background2.svg') no-repeat;
-    background-size: auto;
+    background: url('../../assets/background2.svg') no-repeat right;
+    background-size: 100%;
 }
 #home .content {
     width: 100%;

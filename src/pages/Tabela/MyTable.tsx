@@ -42,7 +42,8 @@ export function MyTable({ items }: Item) {
               {(() => {
                 switch(item.status) {
                     case "Correto": return <TableCell align="center" style={{backgroundColor:'white', color: 'green',}}>{item.CPF_CHECK}</TableCell>;
-                    case "Errado": return <TableCell color="red" align="center" style={{backgroundColor:'white', color: 'red',}}>{item.CPF_CHECK}</TableCell>;
+                    case "Errado": return <TableCell align="center" style={{backgroundColor:'white', color: 'red',}}>{item.CPF_CHECK}</TableCell>;
+                    case "Corrigido": return <TableCell align="center" style={{backgroundColor:'white', color: 'goldenrod',}}>{item.CPF_CHECK}</TableCell>;
                 }
                 })()}
               <TableCell align="center">{item.status}</TableCell>
